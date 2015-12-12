@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+body{
+ font-family: Arial;
+ background-image: url("colorful_dots_on_black.jpg");
+
+}
+
+body>header{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+	background-color: blue;
+	color: yellow;
+	background-image:  linear-gradient( to right, red 0%, red 33.3%, green 33.3%, green 66.6%, blue 66.6%, blue 100%);
+}
+
+nav>header{
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+li>a:link { 
+	font-size: 14px; 
+	color: #000000;
+	text-decoration: none;
+}
+li>a:visited { 
+	color: white;
+	text-decoration: none;
+}
+
+li>a:hover, a:active{
+
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+
+}
+footer>a{
+	font-style: italic;
+}
+
+nav>ul{
+	margin-top: 10px;
+	margin-left: 15px;
+	line-height: 150%;
+}
+
+aside{
+	padding: 10px;
+	border-radius: 15px;
+	background-color: rgba(241, 162, 255, 0.4);
+	margin-top: 25px;
+	margin-left: 5px;
+	height: 180px;
+	width: 180px;
+}
+
+article{
+    margin-top: 10px;
+    vertical-align: top;
+    margin-bottom: 15px;
+    margin-left: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+
+    background-color:  rgba(241, 162, 255, 0.4);
+}
+
+article>header{
+	padding: 9px;
+	border-radius: 10px;
+	margin: 4px;
+}
+
+article>div{
+	padding-left: 9px;
+}
+
+article>footer{
+	padding-left: 9px;
+}
+
+article>div::first-letter{
+    font-size: 200%;
+    font-style: italic;
+}
+article>div::first-line{
+	font-style: italic;
+}
+
+article>span:lang(la){
+	font-style: italic;
+	color: blue;
+}
+article>span{
+	margin-left: 15px;
+}
+
+#webColors{
+	color: white;
+	background-color: red;
+}
+
+#webSafeColors{
+	background-color: orange;
+}
+
+#RGB{
+	background-color: yellow;
+}
+
+#RGBA{
+	color: white;
+	background-color: green;
+}
+
+#HSLHSV, #lorem{
+	color: white;
+	background-color: blue;
+}

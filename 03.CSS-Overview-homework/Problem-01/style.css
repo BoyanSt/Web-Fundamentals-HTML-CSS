@@ -1,0 +1,120 @@
+
+table, td, th {
+    border: 1px solid black;  
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Arial;
+    width:100%;
+}
+
+th, td {
+	padding: 4px;
+}
+
+div#wrapper{
+	width: 57%;
+     margin: 10px auto;
+     background-color: rgba(254, 160, 0, 0.75);
+     padding: 10px;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2}
+tr:nth-child(even){background-color: white}
+th{
+	height: 15px;
+	font-size: 18px;
+	background-color: green;
+}
+
+#flag-right{
+	width: 18px;
+	height: auto;
+	margin-right: 5px;
+}
+
+#flag-left{
+	width: 18px;
+	height: auto;
+	margin-left: 5px;
+}
+
+#bet-button{
+	width: 25px;
+	height: auto;
+}
+
+#bet-button-activ{
+	width: 25px;
+	height: auto;
+}
+
+td{
+	height: 25px;
+	font-size: 12px;
+}
+
+th#head-col-01{
+	border-radius: 12px 0 0 0;
+	width: 15%;
+	text-align: right;
+}
+th#head-col-02{
+	width: 5%;
+}
+th#head-col-03{
+	width: 15%;
+	text-align: left;
+}
+th#head-col-04{
+	width: 5%;
+}
+th#head-col-05{
+	width: 40%;
+	border-radius: 0 12px 0 0;
+}
+
+td#col-01{
+	text-align: right;
+}
+
+td#col-02{
+	text-align: center;
+}
+
+td#col-03{
+	text-align: left;
+}
+
+td#col-04{
+	text-align: center;
+}
+
+td#col-05{
+	text-align: right;
+	width: 12%
+}
+
+td#col-06{
+	text-align: center;
+	width: 10%;
+}
+
+td#col-07{
+	text-align: left;
+	width: 12%;
+}
+
+td#col-08{
+	text-align: center;
+	width: 5%;
+}
+
+td#col-08.rounded-right{
+	border-radius: 0px 0px 12px 0;
+}
+
+td#col-01.rounded-left{
+	border-radius: 0 0 0px 12px;
+}
