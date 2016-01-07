@@ -1,0 +1,71 @@
+
+#wrapper{
+    
+	width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+	background-image: url('formBackground.jpg');
+}
+
+div{
+	margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+	font-size: 17px;
+	color: white;
+}
+
+label>span{
+	margin-top: 4px;
+	float: left;
+	width: 100px;
+}
+
+label{
+	border: 1px solid white;
+	padding: 5px 5px 5px 5px;
+	border-radius: 7px;
+	display: block;
+    margin: 0px 0px 5px;
+}
+
+label>input, textarea{
+	border-radius: 4px;
+	border: 0px;
+	width: 200px;
+	padding: 5px;
+	color: rgb(166, 166, 166);
+}
+
+.submit{
+    margin-left: 150px;
+	width: 95px;
+	height: 30px;
+	border-radius: 15px;
+	border: 0px;
+	font-size: 14px;
+	background-color: rgb(0, 0, 51);
+	text-align: center;
+	color: white;
+}
+
+ul.list-cards{
+	list-style-image: none;
+}
+
+ul.list-cards li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#visa, #AmEx, #master{
+	width: 25px;
+	height: 15px;
+}
