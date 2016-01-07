@@ -1,0 +1,93 @@
+
+
+/********GENARAL SYLES*********/
+
+body{
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+
+#wrapper{
+	width: 280px;
+	margin: 10px auto;
+	padding: 20px 10px 10px 10px;
+	background-color: #FFC0CB;
+}
+
+main{
+	width: 280px;
+	height: 210px;
+}
+
+label{
+	font-style: italic;
+	font-size: 0.8em;
+	line-height: 15px;
+	vertical-align: text-top;
+}
+
+h1{
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+/********MAIN SYLES*********/
+
+section{
+	width: 135px;
+	height: 35px;
+	margin-bottom: 6px;
+	float: left;
+}
+
+#destination{
+	height: 55px;
+}
+
+select,
+#dep-date>input, 
+#ret-date>input{
+	width: 135px;
+}
+
+#dept-time-interval>input,
+#return-time-interval>input{
+	width: 60px;
+	float: left;
+}
+
+#dept-time-interval>input:nth-child(3),
+#return-time-interval>input:nth-child(3){
+	margin-right: 5px;
+}
+
+#age>div>input{
+	width: 37px;
+}
+
+#age>div{
+	display: inline-block;
+}
+
+#origin,
+#dep-date,
+#ret-date,
+#age{
+	margin-right: 10px;
+}
+
+#search{
+	float: right;
+}
+
+#search>input{
+	width: 135px;
+	height: 25px;
+}
+
+
+

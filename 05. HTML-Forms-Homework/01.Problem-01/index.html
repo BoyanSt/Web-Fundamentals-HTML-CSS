@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Form</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Enter the system</h1>
+			<h4>It is necessary to login in Your account in order to sign in for a course. </h4>
+		</header>
+
+		<main>
+			<form id="register">
+				<header>
+					<h5>Are you new? <a href="#">Register</a></h5>
+				</header>
+
+				<input type = "text" name="user-name" id="user-name"
+					pattern="[0-9a-zA-Z]{5,}" placeholder="User name"  required = "true"/>
+					<br/>
+
+				<input type = "text" name="email" id="email"
+					pattern="[0-9a-zA-Z]+@[0-9a-zA-Z]+" placeholder="Email"  required = "true"/>
+					<br/>
+
+				<input type = "password" name="password" id="password"
+					pattern="[0-9a-zA-Z$@]{6,}" placeholder="Password"  required = "true"/>
+					<br/>
+				
+				<input type = "password" name="confirm-password" id="confirm-password"
+					pattern="[0-9a-zA-Z$@]{6,}" placeholder="Confirm Password"  required = "true"/>
+					<br/>
+
+				<div id="send-button">
+					<input type ="button" value = "Register"/>
+ 				</div>	
+			</form>
+
+			<form id="login">
+
+				<header>
+					<h5>Already a student? Login</h5>
+				</header>
+
+				<input type = "text" name="user-name" id="user-name"
+					pattern="[0-9a-zA-Z]{5,}" placeholder="User name"  required = "true"/>
+					<br/>
+
+				<input type = "password" name="password" id="password"
+					pattern="[0-9a-zA-Z$@]{6,}" placeholder="Password"  required = "true"/>
+					<br/>
+
+				<label for="remember">
+					<input type = "checkbox" name="remember" id="remember"
+					value="no" /> Remember me? 
+				</label>
+
+				<div id="button-login">
+					<input type ="button" value = "Login" /> 			
+					<a href="#"> Forgot Password </a>
+ 				</div>	
+			</form>
+
+		</main>
+		
+	</div>
+	
+</body>
+</html>

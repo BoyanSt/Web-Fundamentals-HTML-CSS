@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1> Flight Order</h1>
+		</header>
+
+		<main>
+			<section id="origin">
+				<label for="select-origin"> From </label>
+				<br/>
+				<select name="ori" id="select-origin">
+					<option value = "val1" selected="selected"> Enter a city </option>
+					<option value = "val2"> Sofia </option>
+					<option value = "val3"> Varna </option>
+				</select>
+			</section>
+
+			<section id="destination">
+				<label for="select-destination"> From </label>
+				<br/>
+				<select name="gend" id="select-destination">
+					<option value = "val1" selected="selected"> Enter a city </option>
+					<option value = "val2"> Sofia </option>
+					<option value = "val3"> Varna </option>
+				</select>
+				<br/>
+				<label for="direct">
+					<input type = "checkbox" name="direct" id="direct"
+					value="no" /> Prefer direct
+				</label>
+
+			</section>
+
+			<section id="dep-date">
+				<label for="departure-date"> Departure Date </label>
+				<br/>
+				<input name="departure-date" type="date" value="09.06.2014" />
+			</section>
+
+			<section id = "dept-time-interval">
+				<label for="start-interval"> Time Interval </label>
+				<br/>
+				<input name="start-interval" type="time" value="00:20" />
+				<input name="end-interval" type="time" value="00:50" />
+			</section>
+
+			<section id="ret-date">
+				<label for="return-date"> Return Date </label>
+				<br/>
+				<input name="return-date" type="date" value ="13.06.2014"/>
+			</section>
+
+			<section id = "return-time-interval">
+				<label for="start-interval"> Time Interval </label>
+				<br/>
+				<input name="start-interval" type="time" value="16:00" />
+				<input name="end-interval" type="time" value="22:00" />
+			</section>
+			
+			<section id="age">
+				<div>
+					<label for="return-date"> 12+ </label>
+					<br/>
+					<input type="number" min="0" max="100" value="0" />
+					<br/>
+				</div>
+				<div>
+					<label for="return-date"> 2-12 </label>
+					<br/>
+					<input type="number" min="0" max="100" value="0"/>
+					<br/>
+				</div>
+				<div>
+					<label for="return-date"> 0-2 </label>
+					<br/>
+					<input type="number" min="0" max="100" value="0"/>
+					<br/>
+				</div>
+			</section>
+
+			<section id = "class">
+				<label for="select-class"> Choose class </label>
+				<br/>
+				<select name="se-class" id="select-class">
+					<option value = "val1" selected="selected"> Economy </option>
+					<option value = "val2"> Buisness </option>
+				</select>
+			</section>
+
+			<section id="search">
+				<input type ="button" value = "Search"/>
+ 			</section>
+			
+		</main>
+		
+	</div>	
+</body>
+</html>

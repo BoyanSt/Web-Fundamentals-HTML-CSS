@@ -1,0 +1,113 @@
+
+
+/******** GENARAL STYLE ***********/
+
+body{
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+
+#wrapper{
+	width: 640px;
+	height: 310px;
+	margin: 25px auto;
+	background-color: #EEF3FA;
+	padding: 20px;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #233444;
+	margin-bottom: 15px;
+}
+
+h4{
+	font-size: .8em;
+	color: #aaa;
+	margin-bottom: 15px;
+}
+
+/******** FORM STYLE ***********/
+
+main{
+	width: 640px;
+	height: 400px;
+	height: 238px;
+}
+
+form{
+	padding: 10px 10px 0px 10px;
+	float: left;
+	width: 300px;
+	height: 238px;
+}
+
+#login{	
+	background-color: #234456;
+}
+
+h5{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .9em;
+	margin-bottom: 12px;
+	color: white;
+}
+
+#register>header>h5{
+	color: #ff4d88;
+}
+
+h5>a{
+	color: #00004d;
+	text-decoration: none;
+}
+
+input{
+	width: 284px;
+	height: 30px;
+	color: #aaa;
+	margin-bottom: 12px;
+	padding-left: 12px;
+}
+
+#send-button>input{
+	width: 150px;
+	float: right;
+	border: 2px solid #5C6670;
+	color: #5C6670;
+}
+
+#remember{
+	width: 6px;
+	height: 6px;
+}
+
+#login>label{
+	height: 6px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	color: white;
+	font-size: 0.75em;
+}
+
+#button-login{
+	width: 120px;
+	height: 55px;
+	float: right;
+}
+
+#button-login>input{
+	margin: 0px 0px 5px 0px;
+	width: 120px;
+	background-color: #234456;
+	border: 2px solid #55FF55;
+	color: white;
+}
+
+#button-login>a{
+	color: white;
+	font-size: 0.7em;
+	float: right;
+}

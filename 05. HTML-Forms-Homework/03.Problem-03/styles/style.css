@@ -1,0 +1,35 @@
+
+/********GENERAL STYLES**********/
+
+body{
+	font-size: 14px;
+}
+
+#wrapper{
+	width: 350px;
+	margin: 25px auto;
+	padding: 15px;
+}
+
+p{
+	margin-bottom: 7px;
+}
+
+p>input{
+	width: 100px;
+}
+
+#pic-wordpress{
+	width: 290px;
+	height: auto;
+}
+
+#logo-wordpress{
+	width: 25px;
+	height: auto;
+}
+
+div>input{
+	vertical-align: text-bottom;
+	height: 20px;
+}

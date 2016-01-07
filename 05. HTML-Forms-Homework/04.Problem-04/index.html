@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fake Book</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<div id="wrapper">
+
+		<header>
+			<h1>fakebook<span>&reg;</span></h1>
+			<h3>Registration</h3>
+			<h5>It is safe and it will always be!</h5>
+		</header>
+
+		<form>
+
+			<fieldset id="left-form">
+				<legend>None-Important Information</legend>
+
+				<input type="text" name="first-name" id="first-name"
+					placeholder="First Name" />
+
+				<input type="text" name="last-name" id="last-name"
+					placeholder="Last Name" />
+
+				<input type="text" name="email" id="email"
+					pattern = "[\w\d]{4,}@\w+.\w+"placeholder="Your Email" />
+
+				<input type="tel" name="phone" id="phone"
+				    pattern ="[+\d ]{7,}" placeholder="Phone Number"/>
+
+				<input type="password" name="pass" id="pass"
+				placeholder="Your password" required="true" />
+
+				<input type="text" name="web-site" id="web-site"
+					placeholder="Website" />
+				
+				<div id="birthday">
+					<label for="birthday"> Birthday </label>
+					<br/>
+					<input name="birthday" type="datetime" value="05/09/2014 01:58 PM" />
+				</div>
+
+				<div id="radio-buttons">
+
+					<input type = "radio" name="gender" id="female" value="1" /> Female
+					<input type = "radio" name="gender" id="female" value="2" /> Male		
+					<input type = "radio" name="gender" id="female" value="3" /> Other
+				</div>
+
+			</fieldset>
+
+			<fieldset id="right-form">
+				<legend> Important Information *required</legend>
+
+				<select name="country" id="country">
+					<option value = "val1" selected="selected"> Country </option>
+					<option value = "val2"> Italy </option>
+					<option value = "val3"> Rwanda </option>
+					<option value = "val4"> Columbia </option>
+				</select>
+
+				<input type="text" name="village" id="village"
+					placeholder="Village" />
+
+				<input type="text" name="district" id="district"
+					placeholder="District" />
+
+				<input type="text" name="street" id="street"
+					placeholder="Street" />
+
+				<input type="text" name="str-number" id="str-number"
+					placeholder="Nr" />
+
+				<input type="text" name="floor" id="floor"
+					placeholder="Floor" />
+
+				<input type="text" name="app-number" id="app-number"
+					placeholder="Ap Nr" />
+
+				<label for="door-color"> Door Color
+					<br/>
+					<input name="door-color" id="door-color" type="color" />							
+				</label>
+
+				<input type="text" name="water-meter" id="water-meter"
+					placeholder="Water Meter Nr" />
+
+				<select name="aunt-size" id="aunt-size">
+					<option value = "val1" selected="selected"> Aunt Panties' Size </option>
+					<option value = "val2"> S </option>
+					<option value = "val3"> M </option>
+					<option value = "val4"> L </option>
+					<option value = "val4"> XL </option>
+				</select>
+
+
+				<label id="more-info"> More personal information
+					<textarea name="more-info" id="more-info" cols="1" rows="1">
+						Give us more Information!!!								
+					</textarea>
+				</label>
+
+			</fieldset>
+				<input type="reset" id="button-clear-form" value="Clear Form" />
+				<input type="button" id="button-register" value="Register" />
+		</form>
+	</div>
+	
+</body>
+</html>
