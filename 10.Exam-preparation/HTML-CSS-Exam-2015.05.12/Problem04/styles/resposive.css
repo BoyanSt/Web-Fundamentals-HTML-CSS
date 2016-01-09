@@ -1,0 +1,98 @@
+
+
+
+@media only screen and (max-width: 640px){
+	.wrap{
+		width: 100%;
+	}
+
+	#header-top-area{
+		border-bottom: 1px solid #b5b9ba;
+	}
+
+	#header-middle-area{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #b5b9ba;
+	}
+
+	#header-top-area:after{
+		content: "";
+		clear: both;
+		display: block;
+		height: 0;
+		zoom: 1;
+	}
+
+	#header-top-area h1{
+		background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 0 -65px;
+		width: 125px;
+	}
+
+	#header-top-area h2{
+		display: none;
+	}
+
+	#header-bottom-area{
+		display: none;
+	}
+
+	#product-menu{
+		display: block;
+		float: none;
+	}
+
+
+	#product-menu .product-type:hover > ul {
+		display: block;
+	}
+
+	.box{
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.box article {
+		margin: 0 auto;
+	}
+
+	#products-liked-list div ul li:nth-child(2),
+	#products-liked-list div ul li:nth-child(5),
+	#products-suggestions-list div ul li:nth-child(1),
+	#products-suggestions-list div ul li:nth-child(2){
+		display: none;
+	}
+
+	#products-suggestions-list>div>h3{
+		font-size: 1.7em;
+	}
+
+	.share,
+	.email-newsletter,
+	.copyright{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		padding: 10px;
+	}
+	.copyright{
+		padding-top: 0px;
+	}
+
+	.share>strong{
+		vertical-align: bottom;
+		display: inline-block;
+		color: #fff;
+	}
+
+	.share .tag{
+		color: #fff;
+	}
+
+	footer {
+		height: auto;
+	}
+
+}

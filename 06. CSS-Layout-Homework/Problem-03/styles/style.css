@@ -1,0 +1,116 @@
+
+
+/******GENERAL STYLE******/
+
+@font-face{
+	font-family: Lato Regular;
+	src: url('fonts/Lato-Regular.ttf');
+}
+
+#wrapper{
+	font-family: Lato Regular, sans-serif;
+	box-sizing: border-box;
+	width: 970px;
+	height: 425px;
+	margin: 15px auto;
+	background-color: #EEEEEE;
+	padding: 15px 60px 15px 60px;
+	font-size: 14px;
+}
+
+article{
+	font-size: 0.8em;
+	box-sizing: border-box;
+	width: 270px;
+	padding: 20px 20px 10px 20px;
+	background-color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+footer>ul>li{
+	display: inline-block;
+}
+
+/******ARTICLE STYLE******/
+
+article>header{
+	font-size: 14px;
+	height: 65px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #aaa;
+}
+
+article>div{
+	height: 160px;
+	margin-bottom: 15px;
+}
+
+h2{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#wrapper>article:nth-child(2),
+#wrapper>article:nth-child(3)
+{
+	margin-right: 20px;
+}
+
+#date{
+	font-size: 0.8em;
+	text-align: right;
+}
+
+#author{
+	font-size: 0.8em;
+	text-align: left;
+}
+
+#wrapper>article:nth-child(2)>div>div>img{
+	margin-left: 70px;
+	width: 80px;
+	max-height: auto;
+}
+
+#wrapper>article:nth-child(3)>div>div>img{
+	width: 230px;
+	height: 110px;
+	max-height: auto;
+}
+
+#wrapper>article:nth-child(4)>div>div>img{
+	width: 230px;
+	height: 110px;
+	max-height: auto;
+}
+
+#image-article{
+	width: 230px;
+	height: 120px;
+	margin: 12px auto 0px auto;
+}
+
+article>div{
+	border-bottom: 1px solid #aaa;
+}
+
+p>span{
+	font-weight: bold;
+}
+
+/******PAGING BAR STYLE******/
+
+button{
+	width: 25px;
+	height: 25px;
+	color: #FFF;
+	background-color: #4d79ff;
+	border: none;
+}
+
+footer>ul>li:first-child>button{
+	background-color: #ffa000;
+}

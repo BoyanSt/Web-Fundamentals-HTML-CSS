@@ -1,0 +1,97 @@
+
+
+@font-face{
+	font-family: 'Vollkorn';
+	src: url(https://fonts.googleapis.com/css?family=Vollkorn);
+}
+
+/****** GENERAL STYLES ******/
+
+body{
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/****** HEADER STYLES ******/
+
+h1{
+	font-size: 40px;
+	font-family: Vollkorn, serif;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 35px;
+	color: #7B8A98;
+	padding: 10px;
+}
+
+/****** ARTICLE STYLES ******/
+
+article{
+	width: 30%;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #F6F7F9;
+	padding: 0px 0px 30px 0px;
+	color: #6F7A85;
+}
+
+article>div{
+	height: 200px;
+}
+
+h2{
+	text-align: center;
+	font-family: Vollkorn, serif;
+	font-size: 30px;
+	line-height: 90px;
+	background-color: #EBEFF2;
+	margin-bottom: 25px;
+}
+
+p{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+article>div>p:nth-child(1){
+	font-size: 60px;
+	font-family: Vollkorn,serif;
+}
+
+button{
+	width: 80%;
+	height: 40px;
+	margin: 150px 10% 0px 10%;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #CAD5D9;
+}
+
+main>article {
+	display: inline-block;
+}
+
+/****** HOVER STYLES ******/
+
+article:hover > h2{
+	background-color: #65D3E2;
+}
+
+article:hover > div > p:nth-child(1){
+	color: #60D4E6;
+}
+
+article:hover{
+	cursor: pointer;
+}
+
+button:hover{
+	cursor: pointer;
+}
