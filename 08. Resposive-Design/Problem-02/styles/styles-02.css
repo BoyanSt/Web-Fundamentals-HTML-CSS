@@ -1,0 +1,250 @@
+
+
+/*******GENERAL STYLE*******/
+
+body{
+
+	font-size: 16px;
+	margin-top: 25px;
+	font-family: Arial, sans-serif;
+	background-image: url(../images/background-flowers.jpg);
+	background-position: 0 -23%;
+	background-repeat: repeat-x;
+	background-color: #030303;
+}
+
+#wrapper{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	align-items: stretch;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*******HEADER STYLE*******/
+
+
+#wrapper>header{
+	flex: 1 100%;
+    order: -1;
+	height: 180px;
+	margin-bottom: 25px;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 2px solid #030303;
+	background-color: rgba(254,224,226,0.7)
+}
+
+h1>a>img{
+	width: 30%;
+	height: auto;
+}
+
+h1>a>span{
+	font-size: 55px;
+	color: #030303;
+	font-weight: bolder;
+}
+
+nav{
+	margin-top: 10px;
+	height: auto;
+}
+
+nav>ul>li{
+	font-size: 20px;
+	display: inline-block;
+	border: 1px solid #030303;
+	padding: 12px 35px 12px 35px;
+	margin-left: 20px;
+	background-color: #EB2A7B;
+}
+
+
+/*******ASIDE STYLE*******/
+
+aside{
+	font-size: 18px;
+	background-color: rgba(254,224,226,0.7);
+	height: auto;
+	border: 2px solid #030303;
+	padding: 15px 10px 75px 10px;
+}
+
+aside.left{
+	flex: 1;
+    margin-bottom: 2%;
+}
+
+aside.left>ul>li>a>img{
+	width: 25px;
+	height: auto;
+}
+
+aside.left>ul>li>a>span{
+	font-size: 18px;
+	color: #030303;
+}
+
+aside.right{
+	flex: 1;
+    order: 3;
+    margin-bottom: 2%;
+}
+
+p{
+	line-height: 20px;
+}
+
+/*******SECTION STYLE*******/
+
+section{
+	flex: 4;
+    margin: 0 2% 5% 2%;
+    height: 100%;
+    padding: 1% 0 2% 1%;
+	font-size: 28px;
+	font-weight: bold;
+	background-color: rgba(254,224,226,0.7);
+	border: 2px solid #030303;
+}
+
+section>article>div>img{
+	width: 23.5%;
+	height: auto;
+}
+
+#wrapper{
+	 justify-content: space-between;
+}
+
+/*******FOOTER STYLE*******/
+
+footer{
+	margin-top: 15px;
+	box-sizing: border-box;
+	flex: 1 100%;
+    order: 10;
+	padding: 15px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(254,224,226,0.7);
+	border: 2px solid #030303;
+
+}
+
+footer>h2>a{
+	color: #030303;
+	text-decoration: underline;
+}
+
+/*******RESPONSIVE STYLE*******/
+
+@media only screen and (max-width: 960px) {
+    #wrapper {
+        width: 100%;
+    }
+    
+    body section {
+        margin: 0 2% 5% 2%;
+        height: 100%;
+        padding: 1% 0 2% 1%;
+    }
+    
+    #wrapper section div img {
+        width: 32.2%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    header nav>ul {
+        justify-content: space-around;
+    }
+    
+    #wrapper>header h1 a {
+        justify-content: space-around;
+    }
+    
+    header h1 a img {
+        width: 40%;
+        height: 30%;
+    }
+    
+    body aside.left {
+        flex: 1 100%;
+        order: 2;
+        margin-bottom: 10px;
+    }
+
+    body aside.right {
+        flex: 1 100%;
+        order: 3;
+        margin-bottom: 2%;
+    }
+
+    body section {
+        flex: 1 100%;
+        order: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+	 #wrapper>header{
+	 	height: 300px;
+	 }
+
+    #wrapper>header h1 a {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+    
+    header h1 a img {
+        width: 60%;
+        height: auto;
+    }
+    
+    #wrapper>header h1 a span {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    header nav>ul {
+        margin-left: 15%;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    header nav ul li {
+        background-color: #eb2a7b;
+        border: 1px solid black;
+        padding: 10px 0;
+        margin-left: 1%;
+        width: 80%;
+        text-align: center;
+    }
+    
+    #wrapper section div img {
+        width: 49%;
+    }
+    
+    footer h2 {
+        font-size: 1.1em;
+        color: black;
+    }
+}
