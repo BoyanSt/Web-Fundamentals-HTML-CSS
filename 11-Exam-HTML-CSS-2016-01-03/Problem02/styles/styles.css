@@ -1,0 +1,180 @@
+
+
+@font-face {
+  font-family: Ricks-American;
+  src: url(RicksAmericanNF.ttf);
+}
+
+/****** GENERAL STYLES ******/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #000000;
+}
+
+img{
+	width: 280px;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+main:after,
+article:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	zoom: 1;	
+}
+
+/****** HEADER STYLES ******/
+
+header{
+	width: 100%;
+	background-color: #000000;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+h1{
+	font-family: Ricks-American;
+	font-weight: bold;
+	font-size: 60px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	word-spacing: 15px;
+	letter-spacing: 15px;
+	color: #FAA400;
+}
+
+nav{
+	margin-bottom: 25px;
+}
+
+nav>ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav>ul>li>a{
+	font-family: Ricks-American;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #FAA400;
+	letter-spacing: 5px;
+}
+
+
+/****** MAIN STYLES ******/
+
+main{
+	background-color: #3C3C3C;
+	padding: 15px 45px 15px 25px;
+}
+
+#section-articles{
+	width: 600px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+article{
+	margin-bottom: 10px;
+}
+
+h2{
+	text-align: center;
+	font-size: 23px;
+	text-shadow: 1px 1px 1px #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F9B300;
+	margin-bottom: 5px;
+}
+
+p{
+	width: 310px;
+	color: #F9B300;
+	text-shadow: 1px 1px 1px #000000;
+	text-align: justify;
+	float: left;
+}
+
+p>a{
+	text-decoration: none;
+	font-style: italic;
+	color: #F9B300;
+}
+
+aside{
+	width: 250px;
+	margin-top: 15px;
+}
+
+#section-asides{
+	float: right;
+}
+
+figure>img{
+	box-sizing:border-box;
+	width: 250px;
+	height: auto;
+	border: 1px solid #F9B300;
+	border-radius: 15px;
+}
+
+figcaption{
+	font-weight: bold;
+	color: #F9B300;
+	text-shadow: 1px 1px 1px #000000;
+	position: relative;
+	top: -20px;
+}
+
+figcaption>p{
+	text-align: center;
+	width: 100%;
+	line-height: 20px;
+	background-color: rgba(104,100,91, .5)
+}
+
+/****** FOOTER STYLES ******/
+
+footer>p{
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+/****** HOVER STYLES ******/
+
+#section-asides>aside:hover figcaption>p{
+	background-color: rgb(255,163,0);
+	color: rgb(129,59,0);
+	text-shadow:none;
+}
+
+#section-asides>aside:hover{
+	cursor: pointer;
+}
+
+
+li>a:hover{
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 25px;
+	background-color: rgb(255,163,0);
+	color: #000000;
+}
+
+
+

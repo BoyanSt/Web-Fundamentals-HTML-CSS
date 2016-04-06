@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Free Account</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+	<div id="wrapper">
+		<nav>
+			<ul>
+				<li>
+					<img src="images/paraglider-icon.png">
+					<a href="#">Paragliding</a>
+				</li>
+				<li>
+					<img src="images/sky-diver.png">
+					<a href="#">Skydiving</a>
+				</li>
+				<li>
+					<img src="images/climbing.png">				
+					<a href="#">Climbing</a>
+				</li>
+				<li>
+					<img src="images/about-us.png">					
+					<a href="#">About Us</a>
+				</li>
+			</ul>
+		</nav>
+
+		<fieldset>
+			<legend>Personal Info</legend>
+				<input type="text" name="full-name" placeholder="Enter your full name"/>
+				<input type="text" name="email" placeholder="Enter a valid e-mail"/>
+				<input type="text" name="phone" placeholder="Enter a phone number"/>				
+		</fieldset>
+
+		<fieldset>
+			<legend>Flight Info</legend>
+			<h4>Are flying for first time?</h4>
+			<div id="radio-container">
+				<input name="flight" id="radio-button" type="radio" id="yes" value="yes" />
+				<label class="inline" for="yes">Yes</label>
+				<input name="flight" id="radio-button" type="radio" id="no" value="no" />
+				<label class="inline" for="no">No</label>
+			</div>
+
+			<label for="classes">Choose Destination</label>
+			<select id="destination" autofocus="true">
+				<option selected="selected">Dobrostan</option>
+				<option >Sopot</option>
+				<option >Sofia</option>
+				<option >Burgas</option>
+				<option >Nepal</option>
+				<option >Turkey</option>
+				<option >France</option>
+			</select>
+
+			<label for="choose-date">Choose Date</label>
+			<input type="date" id="choose-date" value="mm/dd/yyyy"/>
+		</fieldset>
+
+		<div id="buttons-send">
+			<button id="left-button"><span>Clear</span></button>
+			<button id="right-button"><span>Send</span></button>
+			
+		</div>
+
+	</div>
+	
+</body>
+</html>
